@@ -8,7 +8,7 @@ interface CardProps extends PropsWithChildren {
 
 const Card:FC<CardProps> = ({children, className, ...props}) => {
   return (
-    <RadixCard {...props} className={cn('bg-green-500', className)} >
+    <RadixCard {...props} className={cn('', className)} >
         {children}
     </RadixCard>
   )
